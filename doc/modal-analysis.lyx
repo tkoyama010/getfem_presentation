@@ -73,6 +73,10 @@
 GetFEM++で梁の固有値解析
 \end_layout
 
+\begin_layout Author
+小山哲央
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -89,6 +93,36 @@ GetFEM++とは
 \begin_layout Frame
 GetFEM++は、PythonやScilab、MATLABスなどのクリプト言語での使用を前提としたオープンソースの有限要素法ライブラリです。また、GID、GM
 SHとEMC2などのインポート、ポスト処理としてVTKやPOSファイルをサポートしています。
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename fig/logogetfem.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameTitle
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+目的
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
 \end_layout
 
 \end_body
