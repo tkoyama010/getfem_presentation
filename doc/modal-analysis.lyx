@@ -104,7 +104,21 @@ SHとEMC2などのインポート、ポスト処理としてVTKやPOSファイ�
 
 \end_layout
 
-\begin_layout FrameTitle
+\begin_layout Frame
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://download.gna.org/getfem/html/homepage/index.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
 
 \end_layout
 
@@ -122,7 +136,88 @@ status open
 \end_layout
 
 \begin_layout Frame
+今回はGetfem++の機能を使い３次元ソリッド要素の固有値解析を行います
+\end_layout
 
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+固有値解析スクリプト
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+import getfem as gf
+\end_layout
+
+\begin_layout Frame
+import numpy as np 
+\end_layout
+
+\begin_layout Frame
+from scipy import io 
+\end_layout
+
+\begin_layout Frame
+from scipy.sparse import linalg
+\end_layout
+
+\begin_layout Frame
+# 質量マトリックスをHarwell Boeing形式でインポート
+\end_layout
+
+\begin_layout Frame
+A = io.hb_read('MM.hb') 
+\end_layout
+
+\begin_layout Frame
+# 剛性マトリックスをHarwell Boeing形式でインポート
+\end_layout
+
+\begin_layout Frame
+B = io.hb_read('KK.hb') 
+\end_layout
+
+\begin_layout Frame
+# 固有値解析
+\end_layout
+
+\begin_layout Frame
+w, v = linalg.eigs(A,M=B)
+\end_layout
+
+\begin_layout Frame
+omega = np.sqrt(1.000e+00/w)/2.000e+00/np.pi 
+\end_layout
+
+\begin_layout Frame
+# 固有円振動数の保存
+\end_layout
+
+\begin_layout Frame
+np.savetxt("omega.txt", np.real(omega))
+\end_layout
+
+\begin_layout Frame
+# 固有モードの保存
+\end_layout
+
+\begin_layout Frame
+np.savetxt("v.txt", np.real(v))
 \end_layout
 
 \end_body
