@@ -148,6 +148,23 @@ status open
 status open
 
 \begin_layout Plain Layout
+静解析のスクリプト
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 固有値解析スクリプト
 \end_layout
 
