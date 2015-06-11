@@ -127,7 +127,7 @@ http://download.gna.org/getfem/html/homepage/index.html
 status open
 
 \begin_layout Plain Layout
-目的
+何をするか
 \end_layout
 
 \end_inset
@@ -136,7 +136,25 @@ status open
 \end_layout
 
 \begin_layout Frame
-今回はGetfem++の機能を使い３次元ソリッド要素の固有値解析を行います。その際にGetfem++からScipyに疎行列の受け渡しを行うことで固有値解析を実行します。
+今回はGetfem++の機能を使い３次元ソリッド要素の固有値解析を行います。その際にGetfem++からScipyに疎行列の受け渡しを行うことで固有値解析を実行
+します。
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename fig/logogetfem.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename fig/scipyshiny_small.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Separator
