@@ -136,7 +136,7 @@ status open
 \end_layout
 
 \begin_layout Frame
-今回はGetfem++の機能を使い３次元ソリッド要素の固有値解析を行います
+今回はGetfem++の機能を使い３次元ソリッド要素の固有値解析を行います。その際にGetfem++からScipyに疎行列の受け渡しを行うことで固有値解析を実行します。
 \end_layout
 
 \begin_layout Separator
