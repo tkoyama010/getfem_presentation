@@ -166,7 +166,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Getfem++による静解析
+Getfem++による行列作成
 \end_layout
 
 \end_inset
@@ -177,24 +177,7 @@ Getfem++による静解析
 \begin_layout Frame
 \begin_inset Graphics
 	filename fig/tripod.png
-	scale 10
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-固有値解析
-\end_layout
+	scale 15
 
 \end_inset
 
@@ -561,7 +544,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-1次固有振動数
+1次固有振動数(Hz)
 \end_layout
 
 \end_inset
@@ -599,7 +582,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-誤差
+誤差(%)
 \end_layout
 
 \end_inset
@@ -617,7 +600,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.3%
+0.3
 \end_layout
 
 \end_inset
@@ -626,7 +609,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.5%
+0.5
 \end_layout
 
 \end_inset
