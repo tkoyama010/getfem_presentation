@@ -259,7 +259,16 @@ from scipy.sparse import linalg
 \end_layout
 
 \begin_layout Frame
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
 # 質量マトリックスをHarwell Boeing形式でインポート
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -267,7 +276,16 @@ A = io.hb_read('MM.hb')
 \end_layout
 
 \begin_layout Frame
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
 # 剛性マトリックスをHarwell Boeing形式でインポート
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -275,7 +293,16 @@ B = io.hb_read('KK.hb')
 \end_layout
 
 \begin_layout Frame
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
 # 固有値解析
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -287,7 +314,16 @@ omega = np.sqrt(1.000e+00/w)/2.000e+00/np.pi
 \end_layout
 
 \begin_layout Frame
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
 # 固有円振動数の保存
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -295,7 +331,16 @@ np.savetxt("omega.txt", np.real(omega))
 \end_layout
 
 \begin_layout Frame
+\begin_inset Flex Alert
+status open
+
+\begin_layout Plain Layout
 # 固有モードの保存
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
