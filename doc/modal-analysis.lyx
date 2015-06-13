@@ -255,5 +255,43 @@ np.savetxt("omega.txt", np.real(omega))
 np.savetxt("v.txt", np.real(v))
 \end_layout
 
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+例題
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Salome-Macaで過去に行われた解析結果と比較する
+\end_layout
+
+\begin_layout Frame
+\begin_inset Graphics
+	filename fig/51pUvyAw7FL._SY344_BO1,204,203,200_.jpg
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename fig/20140902G547.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
