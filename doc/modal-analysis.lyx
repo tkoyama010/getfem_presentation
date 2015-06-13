@@ -3,6 +3,9 @@
 \begin_document
 \begin_header
 \textclass beamer
+\begin_preamble
+\logo{\includegraphics[height=0.5cm]{fig/cc.eps}}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language japanese
