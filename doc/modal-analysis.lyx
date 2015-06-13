@@ -192,11 +192,17 @@ status open
 \end_layout
 
 \begin_layout Frame
+\begin_inset Graphics
+	filename fig/scipyshiny_small.png
+	scale 10
 
+\end_inset
+
+Getfem++の静解析で使用した行列をHarwell Boeing形式で出力しておき、Scipyで読み込ませます。
 \end_layout
 
 \begin_layout Frame
-import getfem as gf
+
 \end_layout
 
 \begin_layout Frame
@@ -287,6 +293,23 @@ Salome-Macaで過去に行われた解析結果と比較する
 \begin_inset Graphics
 	filename fig/20140902G547.jpg
 	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+解析結果
+\end_layout
 
 \end_inset
 
