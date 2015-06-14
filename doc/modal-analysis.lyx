@@ -4,7 +4,7 @@
 \begin_header
 \textclass beamer
 \begin_preamble
-\logo{\includegraphics[height=0.5cm]{fig/cc.eps}}
+\logo{\includegraphics[height=1.0cm]{fig/cc.eps}}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -658,7 +658,7 @@ Pythonとの連携が取りやすく手軽に行列を操作できる
 \begin_layout Frame
 \begin_inset Graphics
 	filename fig/python-logo.png
-	scale 50
+	scale 40
 
 \end_inset
 
