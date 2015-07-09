@@ -57,7 +57,7 @@ nbd = mfd.nbdof()
 K = gf.asm_linear_elasticity(mim, mfu, mfd, np.repeat([Lambda], nbd), np.repeat([Mu], nbd))
 M = gf.asm_mass_matrix(mim, mfu)*rho
 
-(H,R) = gf.asm_dirichlet(DIRICHLET_BOUNDARY, mim, mfu, mfd, mfd.eval('np.identity(3)',globals(),locals()), mfd.eval('[0,0,0]'))
+(H,R) = gf.asm_dirichlet(DIRICHLET_BOUNDARY, mim, mfu, mfd, mfd.eval('[[1,0,0],[0,1,0],[0,0,1]]',globals(),locals()), mfd.eval('[0,0,0]'))
 (N,U0) = H.dirichlet_nullspace(R)
 
 Nt = gf.Spmat('copy',N)
@@ -77,5 +77,5 @@ w, v = linalg.eigs(A,M=B)
 omega = np.sqrt(1.000e+00/w)/2.000e+00/np.pi
 
 print "post-processing"
-#np.savetxt("omega.txt", np.real(omega))
-#np.savetxt("v.txt", np.real(v))
+np.savetxt("omega.txt", np.real(omega))
+np.savetxt("v.txt", np.real(v))
