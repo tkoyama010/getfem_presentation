@@ -180,6 +180,7 @@ Getfem++による行列作成
 \begin_layout Frame
 \begin_inset Graphics
 	filename fig/tripod.png
+	lyxscale 50
 	scale 15
 
 \end_inset
@@ -401,6 +402,7 @@ status open
 \begin_layout Frame
 \begin_inset Graphics
 	filename fig/model.png
+	lyxscale 50
 	scale 15
 
 \end_inset
@@ -517,6 +519,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename fig/salome-meca.jpg
+	lyxscale 50
 	scale 10
 
 \end_inset
@@ -532,6 +535,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename fig/logogetfem.png
+	lyxscale 50
 	scale 10
 
 \end_inset
