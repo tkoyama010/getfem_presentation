@@ -2,10 +2,7 @@
 \lyxformat 474
 \begin_document
 \begin_header
-\textclass beamer
-\begin_preamble
-\logo{\includegraphics[height=1.0cm]{fig/cc.eps}}
-\end_preamble
+\textclass powerdot
 \use_default_options true
 \maintain_unincluded_children false
 \language japanese
@@ -30,7 +27,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -55,8 +52,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 1
+\tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -80,25 +77,16 @@ GetFEM++で固有値解析
 小山哲央
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 GetFEM++とは
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 GetFEM++は、PythonやScilab、MATLABスなどのクリプト言語での使用を前提としたオープンソースの有限要素法ライブラリです。また、GID、GM
 SHとEMC2などのインポート、ポスト処理としてVTKやPOSファイルをサポートしています。
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/logogetfem.png
 
@@ -107,7 +95,7 @@ SHとEMC2などのインポート、ポスト処理としてVTKやPOSファイ�
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Flex URL
 status open
 
@@ -121,29 +109,16 @@ http://download.gna.org/getfem/html/homepage/index.html
 
 \end_layout
 
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 何をするか
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 今回はGetfem++の機能を使い３次元ソリッド要素の固有値解析を行います。その際にGetfem++からScipyに疎行列の受け渡しを行うことで固有値解析を実行
 します。
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/logogetfem.png
 	scale 50
@@ -160,24 +135,11 @@ status open
 
 \end_layout
 
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 Getfem++による行列作成
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/tripod.png
 	lyxscale 50
@@ -188,7 +150,7 @@ Getfem++による行列作成
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/scipyshiny_small.png
 	scale 10
@@ -198,32 +160,11 @@ Getfem++による行列作成
 Getfem++の静解析で使用した行列をHarwell Boeing形式で出力しておき、Scipyで読み込ませます。
 \end_layout
 
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 固有値解析スクリプト
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/scipyshiny_small.png
 	scale 10
@@ -233,129 +174,71 @@ status open
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 import numpy as np 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 from scipy import io 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 from scipy.sparse import linalg
 \end_layout
 
-\begin_layout Frame
-\begin_inset Flex Alert
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 # 質量マトリックスをHarwell Boeing形式でインポート
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 A = io.hb_read('MM.hb') 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Flex Alert
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 # 剛性マトリックスをHarwell Boeing形式でインポート
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 B = io.hb_read('KK.hb') 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Flex Alert
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 # 固有値解析
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 w, v = linalg.eigs(A,M=B)
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 omega = np.sqrt(1.000e+00/w)/2.000e+00/np.pi 
 \end_layout
 
-\begin_layout Frame
-\begin_inset Flex Alert
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 # 固有円振動数の保存
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 np.savetxt("omega.txt", np.real(omega))
 \end_layout
 
-\begin_layout Frame
-\begin_inset Flex Alert
-status open
-
-\begin_layout Plain Layout
+\begin_layout Standard
 # 固有モードの保存
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 np.savetxt("v.txt", np.real(v))
 \end_layout
 
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 例題
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 Salome-Macaで過去に行われた解析結果と比較する
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/salome-meca.jpg
 	scale 40
@@ -365,7 +248,7 @@ Salome-Macaで過去に行われた解析結果と比較する
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/51pUvyAw7FL._SY344_BO1,204,203,200_.jpg
 	scale 40
@@ -382,24 +265,11 @@ Salome-Macaで過去に行われた解析結果と比較する
 
 \end_layout
 
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 片持ち梁の固有値解析結果
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/model.png
 	lyxscale 50
@@ -410,7 +280,7 @@ status open
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="3">
 <features rotate="0" tabularvalignment="middle">
@@ -482,11 +352,11 @@ status open
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="4">
 <features rotate="0" tabularvalignment="middle">
@@ -629,24 +499,11 @@ status open
 
 \end_layout
 
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
+\begin_layout Slide
 なぜGetfem++を使うのか
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/logogetfem.png
 
@@ -655,11 +512,11 @@ status open
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 Pythonとの連携が取りやすく手軽に行列を操作できる
 \end_layout
 
-\begin_layout Frame
+\begin_layout Standard
 \begin_inset Graphics
 	filename fig/python-logo.png
 	scale 40
@@ -669,7 +526,11 @@ Pythonとの連携が取りやすく手軽に行列を操作できる
 
 \end_layout
 
-\begin_layout Frame
+\begin_layout EndSlide
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
