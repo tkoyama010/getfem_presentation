@@ -79,3 +79,7 @@ omega = np.sqrt(1.000e+00/w)/2.000e+00/np.pi
 print "post-processing"
 np.savetxt("omega.txt", np.real(omega))
 np.savetxt("v.txt", np.real(v))
+
+sl = gf.Slice(('boundary',), mfu, 3)
+sl.export_to_vtk('m.vtk', mfu, N*np.real(v[:,0]), 'Mode1', mfu, N*np.real(v[:,1]), 'Mode2', mfu, N*np.real(v[:,2]), 'Mode3', mfu, N*np.real(v[:,3]), 'Mode4', mfu, N*np.real(v[:,4]), 'Mode5', mfu, N*np.real(v[:,5]), 'Mode6')
+
