@@ -47,32 +47,6 @@ int main(void) {
   std::vector<getfem::base_node> fixed;
   getfem::build_mesh(mesh, mo, h, fixed, 2, -2);
 
-// Boundary selection
-
-  getfem::mesh_region border_faces;
-  getfem::outer_faces_of_mesh(mesh, border_faces);
-  getfem::mesh_region fb1
-    = getfem::select_faces_in_box(mesh, border_faces, base_node(1., 1.),
-                   base_node(99., 24.));
-  getfem::mesh_region fb2
-    = getfem::select_faces_of_normal(mesh, border_faces,
-                       base_small_vector( 1., 0.), 0.01);
-  getfem::mesh_region fb3
-    = getfem::select_faces_of_normal(mesh, border_faces,
-                       base_small_vector(-1., 0.), 0.01);
-  getfem::mesh_region fb4
-    = getfem::select_faces_of_normal(mesh, border_faces,
-                       base_small_vector(0.,  1.), 0.01);
-  getfem::mesh_region fb5
-    = getfem::select_faces_of_normal(mesh, border_faces,
-                       base_small_vector(0., -1.), 0.01);
-
-  size_type RIGHT_BOUND=1, LEFT_BOUND=2, TOP_BOUND=3, BOTTOM_BOUND=4;
-  mesh.region( RIGHT_BOUND) = getfem::mesh_region::subtract(fb2, fb1);
-  mesh.region(  LEFT_BOUND) = getfem::mesh_region::subtract(fb3, fb1);
-  mesh.region(   TOP_BOUND) = getfem::mesh_region::subtract(fb4, fb1);
-  mesh.region(BOTTOM_BOUND) = getfem::mesh_region::subtract(fb5, fb1);
-
 // Mesh draw
 
   getfem::vtk_export exp("mesh.vtk", false);
