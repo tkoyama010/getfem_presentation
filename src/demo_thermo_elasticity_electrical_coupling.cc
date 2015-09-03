@@ -1,12 +1,14 @@
 
 // Initialization
 
+#include <iostream>
 #include "getfem/getfem_model_solvers.h"
 #include "getfem/getfem_export.h"
 #include "gmm/gmm.h"
 #include "getfem/getfem_mesher.h"
 #include "getfem/getfem_generic_assembly.h"
 
+using namespace std;
 using bgeot::size_type;
 using bgeot::base_node;
 using bgeot::base_small_vector;
@@ -54,4 +56,17 @@ int main(void) {
   exp.write_mesh();
   // You can view the mesh for instance with
   // mayavi2 -d mesh.vtk -f ExtractEdges -m Surface
+
+// Definition of finite element methods and integration method
+
+  getfem::mesh_fem mfu(mesh, 2);
+  mfu.set_classical_finite_element(elements_degree);
+  getfem::mesh_fem mft(mesh, 1);
+  mft.set_classical_finite_element(elements_degree);
+  getfem::mesh_fem mfvm(mesh, 1);
+  mfvm.set_classical_discontinuous_finite_element(elements_degree);
+
+  getfem::mesh_im  mim(mesh);
+  mim.set_integration_method(bgeot::dim_type(gmm::sqr(elements_degree)));
+
 }
