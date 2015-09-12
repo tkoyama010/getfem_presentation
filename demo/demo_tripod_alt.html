@@ -190,7 +190,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#12392;&#12514;&#12472;&#12517;&#12540;&#12523;&#12398;&#12452;&#12531;&#12509;&#12540;&#12488;">&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#12392;&#12514;&#12472;&#12517;&#12540;&#12523;&#12398;&#12452;&#12531;&#12509;&#12540;&#12488;<a class="anchor-link" href="#&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#12392;&#12514;&#12472;&#12517;&#12540;&#12523;&#12398;&#12452;&#12531;&#12509;&#12540;&#12488;">&#182;</a></h1><h2 id="&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#26041;&#27861;">&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#26041;&#27861;<a class="anchor-link" href="#&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#26041;&#27861;">&#182;</a></h2><h3 id="Linux(Ubuntu)">Linux(Ubuntu)<a class="anchor-link" href="#Linux(Ubuntu)">&#182;</a></h3><p>まずはGetfem++のpythonインターフェースのモジュールをインポートします。Ubuntu系のOSではインストールコマンドは</p>
-<p><code>$ sudo apt-get install python-getfem++</code></p>
+<p><code>$ sudo apt-get update; sudo apt-get install python-getfem++</code></p>
 <p>です。さらに、境界条件設定に使うためnumpyをインポートします。numpyはpython-getfem++と依存関係にあるため、自動的にインストールされます。インストールが終わったら、結果出力とGUI表示のため、gmshとipython-notebookをインストールしましょう。</p>
 <p><code>$ sudo apt-get install gmsh pip; sudo pip install ipython-notebook</code></p>
 <p>このファイルがあるディレクトリに移動</p>
@@ -230,7 +230,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#12497;&#12521;&#12513;&#12540;&#12479;&#12398;&#35373;&#23450;">&#12497;&#12521;&#12513;&#12540;&#12479;&#12398;&#35373;&#23450;<a class="anchor-link" href="#&#12497;&#12521;&#12513;&#12540;&#12479;&#12398;&#35373;&#23450;">&#182;</a></h1><p>まずはパラメータを設定します。この例では、このファイルからの相対パスが '../mesh/tripod.mesh'であるメッシュファイルを使用します。メッシュは四面体要素です。ヤング係数$E = 1.0\times10^3$、ポアソン比$\nu = 0.3$とします。</p>
+<h1 id="&#12497;&#12521;&#12513;&#12540;&#12479;&#12398;&#35373;&#23450;">&#12497;&#12521;&#12513;&#12540;&#12479;&#12398;&#35373;&#23450;<a class="anchor-link" href="#&#12497;&#12521;&#12513;&#12540;&#12479;&#12398;&#35373;&#23450;">&#182;</a></h1><p>まずはパラメータを設定します。この例では、このファイルからの相対パスが './mesh/tripod.mesh'であるメッシュファイルを使用します。メッシュは四面体要素です。ヤング係数$E = 1.0\times10^3$、ポアソン比$\nu = 0.3$とします。</p>
 
 </div>
 </div>
@@ -329,7 +329,7 @@ Exit;
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Overwriting gscript
+<pre>Writing gscript
 </pre>
 </div>
 </div>
@@ -343,8 +343,7 @@ Exit;
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="o">!</span>cat gscript
-<span class="o">!</span>gmsh ./pos/m.pos gscript
+<div class=" highlight hl-ipython2"><pre><span class="o">!</span>gmsh ./pos/m.pos gscript
 <span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="n">Image</span><span class="p">(</span><span class="s">&#39;./png/m.png&#39;</span><span class="p">)</span>
 </pre></div>
@@ -357,20 +356,12 @@ Exit;
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Print &quot;./png/m.png&quot;;
-Exit;
-</pre>
-</div>
-</div>
-
 <div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIoAAAKTCAIAAAD5enTLAAAADHRFWHRDcmVhdG9yAEdtc2j/U5Jh
-AAAAHnRFWHREYXRlAEZyaSBTZXAgMTEgMjM6MzM6MDcgMjAxNQouRGjvAAAgAElEQVR4nOy9W68d
+AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTA6MjY6MTIgMjAxNQrEogsWAAAgAElEQVR4nOy9W68d
 x3G337MPPEQiKTs3byRAFAWbovxCDgMDdgDLvk+u5M+Qz5XPoFw59z4AdoAAhP3ComXBDG1Y8ZXN
 g2TxtDn/i8Kuf62q6ppea2+SQ+l5LjbWnunpru7pQ/2me3qmeZ4bAAAAAAAAvGj2XrQBAAAAAAAA
 0BryDAAAAAAAYCUgzwAAAAAAAFYB8gwAAAAAAGAVIM8AAAAAAABWAfIMAAAAAABgFSDPAAAAAAAA
@@ -1691,8 +1682,7 @@ Exit;
 <div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="o">!</span>cat gscript
-<span class="o">!</span>gmsh ./pos/F.pos gscript
+<div class=" highlight hl-ipython2"><pre><span class="o">!</span>gmsh ./pos/F.pos gscript
 <span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="n">Image</span><span class="p">(</span><span class="s">&#39;./png/F.png&#39;</span><span class="p">)</span>
 </pre></div>
@@ -1705,20 +1695,12 @@ Exit;
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Print &quot;./png/F.png&quot;;
-Exit;
-</pre>
-</div>
-</div>
-
 <div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIoAAAKTCAIAAAD5enTLAAAADHRFWHRDcmVhdG9yAEdtc2j/U5Jh
-AAAAHnRFWHREYXRlAEZyaSBTZXAgMTEgMjM6MzM6MDkgMjAxNQp+exOyAAAgAElEQVR4nOzdeZQl
+AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTA6MjY6NDYgMjAxNQp4DSFhAAAgAElEQVR4nOzdeZQl
 R3nn/Serqqul7lYL0asaIbVZDFrwwKDNAhq9aGGREKslsDHMeTGSxtjjbWyzeOzBG5jXNp6Dsc02
 7xiwBRx2CcwicdACRsCMeW1JLD4zBiQk9SJjSS1BV3d1vn9EVVTc2DIyMjJvVuv7ORxRfSszMjLv
 rZvxu09k3qquawEAAAAATNvMtDsAAAAAABAhngEAAADASBDPAAAAAGAUiGcAAAAAMArEMwAAAAAY
@@ -2502,8 +2484,7 @@ Exit;
 <div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="o">!</span>cat gscript
-<span class="o">!</span>gmsh ./pos/m_result.pos gscript
+<div class=" highlight hl-ipython2"><pre><span class="o">!</span>gmsh ./pos/m_result.pos gscript
 <span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="n">Image</span><span class="p">(</span><span class="s">&#39;./png/m_result.png&#39;</span><span class="p">)</span>
 </pre></div>
@@ -2516,20 +2497,12 @@ Exit;
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Print &quot;./png/m_result.png&quot;;
-Exit;
-</pre>
-</div>
-</div>
-
 <div class="output_area"><div class="prompt output_prompt">Out[24]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIoAAAKTCAIAAAD5enTLAAAADHRFWHRDcmVhdG9yAEdtc2j/U5Jh
-AAAAHnRFWHREYXRlAEZyaSBTZXAgMTEgMjM6MzM6MTEgMjAxNQqBPl1LAAAgAElEQVR4nOzdd7wU
+AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTA6Mjc6MDQgMjAxNQqEGlWMAAAgAElEQVR4nOzdd7wU
 1f3/8feZ2QICUkQENCioscYSa1TA3jtWsMaGXbHHDnbFFoyKsWBDUdGIHSslYjc2BJXeLyDtAnd3
 Z87vj7kzd7ZdbvLNLxnN6/ngobuzZ87Mzi077/s5c8ZYawUAAAAA+G9z/ts7AAAAAACQiGcAAAAA
 kBDEMwAAAABIBOIZAAAAACQC8QwAAAAAEoF4BgAAAACJQDwDAAAAgEQgngEAAABAIhDPAAAAACAR
