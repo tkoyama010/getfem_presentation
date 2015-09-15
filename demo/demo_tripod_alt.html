@@ -192,7 +192,7 @@ div#notebook {
 <h1 id="&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#12392;&#12514;&#12472;&#12517;&#12540;&#12523;&#12398;&#12452;&#12531;&#12509;&#12540;&#12488;">&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#12392;&#12514;&#12472;&#12517;&#12540;&#12523;&#12398;&#12452;&#12531;&#12509;&#12540;&#12488;<a class="anchor-link" href="#&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#12392;&#12514;&#12472;&#12517;&#12540;&#12523;&#12398;&#12452;&#12531;&#12509;&#12540;&#12488;">&#182;</a></h1><h2 id="&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#26041;&#27861;">&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#26041;&#27861;<a class="anchor-link" href="#&#12452;&#12531;&#12473;&#12488;&#12540;&#12523;&#26041;&#27861;">&#182;</a></h2><h3 id="Linux(Ubuntu)">Linux(Ubuntu)<a class="anchor-link" href="#Linux(Ubuntu)">&#182;</a></h3><p>まずはGetfem++のpythonインターフェースのモジュールをインポートします。Ubuntu系のOSではインストールコマンドは</p>
 <p><code>$ sudo apt-get update; sudo apt-get install python-getfem++</code></p>
 <p>です。さらに、境界条件設定に使うためnumpyをインポートします。numpyはpython-getfem++と依存関係にあるため、自動的にインストールされます。インストールが終わったら、結果出力とGUI表示のため、gmshとipython-notebookをインストールしましょう。</p>
-<p><code>$ sudo apt-get install gmsh pip; sudo pip install ipython-notebook</code></p>
+<p><code>$ sudo apt-get install gmsh pip; sudo pip install notebook</code></p>
 <p>このファイルがあるディレクトリに移動</p>
 <p><code>$ ipython notebook</code></p>
 <p>で、Ipython Notebookを起動した後このファイルを開いてください。</p>
@@ -329,7 +329,7 @@ Exit;
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Writing gscript
+<pre>Overwriting gscript
 </pre>
 </div>
 </div>
@@ -361,7 +361,7 @@ Exit;
 
 <div class="output_png output_subarea output_execute_result">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIoAAAKTCAIAAAD5enTLAAAADHRFWHRDcmVhdG9yAEdtc2j/U5Jh
-AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTA6MjY6MTIgMjAxNQrEogsWAAAgAElEQVR4nOy9W68d
+AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTE6NDc6MDggMjAxNQp2mSw+AAAgAElEQVR4nOy9W68d
 x3G337MPPEQiKTs3byRAFAWbovxCDgMDdgDLvk+u5M+Qz5XPoFw59z4AdoAAhP3ComXBDG1Y8ZXN
 g2TxtDn/i8Kuf62q6ppea2+SQ+l5LjbWnunpru7pQ/2me3qmeZ4bAAAAAAAAvGj2XrQBAAAAAAAA
 0BryDAAAAAAAYCUgzwAAAAAAAFYB8gwAAAAAAGAVIM8AAAAAAABWAfIMAAAAAABgFSDPAAAAAAAA
@@ -1700,7 +1700,7 @@ Exit;
 
 <div class="output_png output_subarea output_execute_result">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIoAAAKTCAIAAAD5enTLAAAADHRFWHRDcmVhdG9yAEdtc2j/U5Jh
-AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTA6MjY6NDYgMjAxNQp4DSFhAAAgAElEQVR4nOzdeZQl
+AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTE6NDc6MTAgMjAxNQqJ3GLHAAAgAElEQVR4nOzdeZQl
 R3nn/Serqqul7lYL0asaIbVZDFrwwKDNAhq9aGGREKslsDHMeTGSxtjjbWyzeOzBG5jXNp6Dsc02
 7xiwBRx2CcwicdACRsCMeW1JLD4zBiQk9SJjSS1BV3d1vn9EVVTc2DIyMjJvVuv7ORxRfSszMjLv
 rZvxu09k3qquawEAAAAATNvMtDsAAAAAABAhngEAAADASBDPAAAAAGAUiGcAAAAAMArEMwAAAAAY
@@ -2502,7 +2502,7 @@ Exit;
 
 <div class="output_png output_subarea output_execute_result">
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIoAAAKTCAIAAAD5enTLAAAADHRFWHRDcmVhdG9yAEdtc2j/U5Jh
-AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTA6Mjc6MDQgMjAxNQqEGlWMAAAgAElEQVR4nOzdd7wU
+AAAAHnRFWHREYXRlAFNhdCBTZXAgMTIgMTE6NDc6MTEgMjAxNQovq2lzAAAgAElEQVR4nOzdd7wU
 1f3/8feZ2QICUkQENCioscYSa1TA3jtWsMaGXbHHDnbFFoyKsWBDUdGIHSslYjc2BJXeLyDtAnd3
 Z87vj7kzd7ZdbvLNLxnN6/ngobuzZ87Mzi077/s5c8ZYawUAAAAA+G9z/ts7AAAAAACQiGcAAAAA
 kBDEMwAAAABIBOIZAAAAACQC8QwAAAAAEoF4BgAAAACJQDwDAAAAgEQgngEAAABAIhDPAAAAACAR
