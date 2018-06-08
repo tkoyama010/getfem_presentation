@@ -145,41 +145,39 @@
          y="294.43759"
          style="stroke-width:0.26458332" /></text>
     <image
-       xlink:href="configure.png"
-       y="32.114479"
-       x="1.080399"
-       id="image199"
+       xlink:href="make.png"
+       width="264.58334"
+       height="137.90874"
        preserveAspectRatio="none"
-       height="179.28136"
-       width="343.95834" />
+       id="image199"
+       x="11.147682"
+       y="67.195061" />
     <text
        id="text204"
-       y="90.770813"
-       x="134.80457"
+       y="223.41879"
+       x="12.147529"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332"
-         y="90.770813"
-         x="134.80457"
-         id="tspan202">Makefileの作成完了</tspan></text>
+         y="223.41879"
+         x="12.147529"
+         id="tspan202">make中の様子</tspan></text>
     <text
        id="text208"
-       y="225.58014"
-       x="8.0037098"
+       y="236.76627"
+       x="12.592436"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
-         style="font-size:8.46666622px;stroke-width:0.26458332"
-         y="225.58014"
-         x="8.0037098"
-         id="tspan206">あとは</tspan><tspan
-         id="tspan210"
-         style="font-size:8.46666622px;stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
-         y="243.21902"
-         x="8.0037098">$make &amp;&amp; make check &amp;&amp; make install</tspan><tspan
-         id="tspan214"
-         style="font-size:8.46666622px;stroke-width:0.26458332"
-         y="260.85791"
-         x="8.0037098">でインストールできます。</tspan></text>
+         style="font-size:9.87777805px"
+         id="tspan58">ソースの品質が高いためWARNINGが一切でません・・・</tspan></text>
+    <text
+       id="text208-3"
+       y="252.40411"
+       x="12.891827"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:9.8777771px;stroke-width:0.26458332"
+         id="tspan58-6">約＊＊＊ほどコンパイルし続けます。</tspan></text>
   </g>
   <text
      id="text1510"
