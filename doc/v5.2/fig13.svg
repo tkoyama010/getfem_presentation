@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg8"
    version="1.1"
    viewBox="0 0 297 210"
@@ -119,34 +120,6 @@
      y="39.367813"
      id="text109" />
   <text
-     id="text49"
-     y="59.065773"
-     x="10.475155"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       style="font-size:9.87777805px;stroke-width:0.26458332"
-       y="59.065773"
-       x="10.475155"
-       id="tspan47">■Deformation of a plate under the coupling of thermal,</tspan><tspan
-       id="tspan51"
-       style="font-size:9.87777805px;stroke-width:0.26458332"
-       y="76.704659"
-       x="10.475155">  elasticity, and electric effects.</tspan></text>
-  <text
-     id="text55"
-     y="95.211861"
-     x="12.012712"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       y="95.211861"
-       x="12.012712"
-       id="tspan53">PythonとC++のライブラリの使い方は1対1対応なので</tspan><tspan
-       id="tspan57"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       y="112.85075"
-       x="12.012712">片方で使用ができればもう片方の実装も可能です。</tspan></text>
-  <text
      id="text55-3"
      y="43.464737"
      x="10.950294"
@@ -155,5 +128,13 @@
        id="tspan57-7"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
        y="43.464737"
-       x="10.950294">以下の問題について解説します。</tspan></text>
+       x="10.950294">まずは物性値とメッシュ情報を設定します。</tspan></text>
+  <image
+     xlink:href="set_parameter.png"
+     y="46.678757"
+     x="7.9789176"
+     id="image93"
+     preserveAspectRatio="none"
+     height="100.47924"
+     width="396.875" />
 </svg>
