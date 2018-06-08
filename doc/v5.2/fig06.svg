@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6083"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6081" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,23.999998,24)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764">
+      <stop
+         id="stop1456"
+         style="stop-color:#575757;stop-opacity:1" />
+      <stop
+         id="stop1458"
+         style="stop-color:#616161;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0.44967881,-64.965738)"
+     id="layer1">
+    <text
+       id="text3715"
+       y="153.209"
+       x="63.075607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot38"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion40"><rect
+           id="rect42"
+           width="2109.3733"
+           height="387.63004"
+           x="4204.478"
+           y="265.76297" /></flowRegion><flowPara
+         id="flowPara44" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2.3123035"
+       y="138.22449"
+       id="text48" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="4.250833"
+       y="94.573914"
+       id="text979"><tspan
+         id="tspan977"
+         x="4.250833"
+         y="94.573914"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">Getfem++v5.2インストール方法 @Ubuntu18.04</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="8.8654785"
+       y="170.01768"
+       id="text841"><tspan
+         x="8.8654785"
+         y="187.65657"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         id="tspan1004" /></text>
+    <text
+       id="text925"
+       y="118.13457"
+       x="7.6543059"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#ff0000;stroke-width:0.26458332"
+         y="118.13457"
+         x="7.6543059"
+         id="tspan923">使用されるライブラリ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="6.8514094"
+       y="132.75198"
+       id="text842"><tspan
+         id="tspan839"
+         x="6.8514094"
+         y="132.75198"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">MUMPS</tspan></text>
+    <text
+       id="text925-3"
+       y="222.90977"
+       x="6.4184766"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="222.90977"
+         x="6.4184766"
+         id="tspan923-6" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2627"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion2629"><rect
+           id="rect2631"
+           width="277.17035"
+           height="56.379353"
+           x="593.88263"
+           y="459.86249" /></flowRegion><flowPara
+         id="flowPara2633" /></flowRoot>    <text
+       id="text925-36"
+       y="157.25555"
+       x="5.4838648"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="157.25555"
+         x="5.4838648"
+         id="tspan923-7" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="16.5529"
+       y="253.6274"
+       id="text842-2"><tspan
+         id="tspan839-7"
+         x="16.5529"
+         y="253.6274"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332" /></text>
+    <text
+       id="text980"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="16.5529"
+       y="253.6274"><tspan
+         id="tspan982"
+         x="16.5529"
+         y="253.6274"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332" /></text>
+    <text
+       id="text986"
+       y="280.53815"
+       x="64.957626"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="294.43759"
+         x="64.957626"
+         id="tspan984" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="5.8969202"
+       y="185.94577"
+       id="text842-29"><tspan
+         id="tspan839-1"
+         x="5.8969202"
+         y="185.94577"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">LAPACKとBLAS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="39.596382"
+       y="199.33485"
+       id="text1516-2"><tspan
+         id="tspan103-7"
+         style="font-size:9.87777805px;stroke-width:0.26458332">線型計算のための数値解析ソフトウェアライブラリ</tspan></text>
+    <text
+       id="text71-0-9"
+       y="208.14175"
+       x="8.1679459"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan89-9-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="208.14175"
+         x="8.1679459">私の場合LPACKとBLASはいつもR言語(r-base)と一緒にaptでインストールしています。</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="7.9304972"
+       y="227.8746"
+       id="text842-29-6-9"><tspan
+         id="tspan839-1-1-2"
+         x="7.9304972"
+         y="227.8746"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">NumpyとScipy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="79.614197"
+       y="227.85258"
+       id="text1516-2-8-2"><tspan
+         id="tspan103-7-7-8"
+         style="font-size:9.8777771px;stroke-width:0.26458332">Pythonの数値計算拡張モジュール</tspan></text>
+    <text
+       id="text71-0-9-9"
+       y="238.70309"
+       x="7.5221276"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan89-9-2-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="238.70309"
+         x="7.5221276">python-getfem++をインストールするとpython-numpyとpython-scipyが合わせてインストールされます。</tspan></text>
+    <text
+       id="text71-0-9-9-3"
+       y="248.57132"
+       x="7.2121191"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan89-9-2-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="248.57132"
+         x="7.2121191">Python3を使用する場合はpython3-numpyとpython3-scipyをaptでインストールしてください。</tspan></text>
+    <text
+       id="text71-0-9-9-3-1"
+       y="258.18988"
+       x="7.0681486"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan89-9-2-7-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="258.18988"
+         x="7.0681486">python3-getfem++は今の所ありません・・・</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="79.593147"
+     y="89.935753"
+     id="text1510"><tspan
+       id="tspan1508"
+       x="79.593147"
+       y="103.8352"
+       style="stroke-width:0.26458332" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="40.950939"
+     y="68.591019"
+     id="text1516"><tspan
+       id="tspan103"
+       style="font-size:9.87777805px">巨大な疎行列を計算するためのソフトウェア</tspan></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot981"
+     style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1M';font-style:normal;font-weight:normal;font-size:53.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1M';font-stretch:normal;font-variant:normal"><flowRegion
+       id="flowRegion983"><rect
+         id="rect985"
+         width="756.31018"
+         height="64.583794"
+         x="263.43387"
+         y="598.24982" /></flowRegion><flowPara
+       id="flowPara987" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.77976179px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07087053"
+     x="58.907921"
+     y="166.15266"
+     id="text995"><tspan
+       x="58.907921"
+       y="166.15266"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777805px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.07087053"
+       id="tspan999" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot1001"
+     style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1M';font-style:normal;font-weight:normal;font-size:53.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1M';font-stretch:normal;font-variant:normal"><flowRegion
+       id="flowRegion1003"><rect
+         id="rect1005"
+         width="27.193174"
+         height="190.35222"
+         x="625.44305"
+         y="-1232.1908" /></flowRegion><flowPara
+       id="flowPara1007" /></flowRoot>  <text
+     id="text71"
+     y="90.602867"
+     x="8.5740423"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       id="tspan89"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+       y="90.602867"
+       x="8.5740423">libmumps-5.1.2 libmumps-dev libmumps-ptscotch-5.1.2 libmumps-ptscotch-dev libmumps-scotch-5.1.2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.77976155px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07087053"
+     x="45.91095"
+     y="146.54872"
+     id="text995-3"><tspan
+       x="45.91095"
+       y="158.89595"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.8777771px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.07087053"
+       id="tspan1017" /></text>
+  <text
+     id="text71-7"
+     y="67.931862"
+     x="6.23949"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     xml:space="preserve"><tspan
+       id="tspan81-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+       y="81.831306"
+       x="6.23949" /><tspan
+       id="tspan89-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444447px;line-height:0;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+       y="99.470192"
+       x="6.23949"> libmumps-scotch-dev libmumps-seq-5.1.2 libmumps-seq-dev mumps mumps-testをaptでインストール</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="40.221474"
+     y="83.146835"
+     id="text1516-5"><tspan
+       id="tspan103-6"
+       style="font-size:9.87777805px;stroke-width:0.26458332">並列計算に使用される。</tspan></text>
+</svg>
