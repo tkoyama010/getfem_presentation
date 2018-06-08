@@ -7,20 +7,20 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   id="svg8"
    version="1.1"
-   id="svg8">
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
   <defs
      id="defs2">
     <linearGradient
-       osb:paint="solid"
-       id="linearGradient6083">
+       id="linearGradient6083"
+       osb:paint="solid">
       <stop
-         id="stop6081"
+         style="stop-color:#000000;stop-opacity:1;"
          offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
+         id="stop6081" />
     </linearGradient>
   </defs>
   <metadata
@@ -36,82 +36,96 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
-     transform="translate(0,-87)">
+     transform="translate(0,-87)"
+     id="layer1">
     <text
+       id="text3715"
+       y="153.209"
+       x="63.075607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot38"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1M';font-style:normal;font-weight:normal;font-size:53.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1M';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion40"><rect
+           id="rect42"
+           width="2109.3733"
+           height="387.63004"
+           x="4204.478"
+           y="265.76297" /></flowRegion><flowPara
+         id="flowPara44" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="63.075607"
-       y="153.209"
-       id="text3715" />
-    <flowRoot
-       style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1M';font-style:normal;font-weight:normal;font-size:53.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1M';font-stretch:normal;font-variant:normal"
-       id="flowRoot38"
-       xml:space="preserve"><flowRegion
-         id="flowRegion40"><rect
-           y="265.76297"
-           x="4204.478"
-           height="387.63004"
-           width="2109.3733"
-           id="rect42" /></flowRegion><flowPara
-         id="flowPara44" /></flowRoot>    <text
-       id="text48"
-       y="138.22449"
        x="2.3123035"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         id="tspan50"
-         style="font-size:9.87777805px;stroke-width:0.26458332"
-         y="138.22449"
-         x="2.3123035">GetFEM++ は Python, Matlab そして Scilabのインタフェースを</tspan><tspan
-         id="tspan81"
-         style="font-size:9.87777805px;stroke-width:0.26458332"
-         y="155.86337"
-         x="2.3123035">使用可能なC++の<tspan
-   id="tspan6117"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#ff0000">汎用ライブラリ</tspan>である。このライブラリの目的は</tspan><tspan
-         id="tspan83"
-         style="font-size:9.87777805px;stroke-width:0.26458332"
-         y="173.50226"
-         x="2.3123035">線形と非線形の有限要素法における要素行列の計算である。</tspan><tspan
-         id="tspan85"
-         style="font-size:9.87777805px;stroke-width:0.26458332"
-         y="191.14116"
-         x="2.3123035">有限要素<tspan
-   id="tspan6121"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold'">近似</tspan>や数値<tspan
-   id="tspan6123"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold'">積分法</tspan>の<tspan
-   id="tspan6125"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#ff0000">選択の柔軟性</tspan>が特徴の一つである。</tspan></text>
+       y="138.22449"
+       id="text48" />
+    <image
+       xlink:href="What'sNewinGetfem++5.2.png"
+       y="111.38943"
+       x="2.4596748"
+       id="image956"
+       preserveAspectRatio="none"
+       height="134.9234"
+       width="291.04166" />
     <text
-       transform="rotate(-6.2717493)"
+       transform="rotate(-6.2717492)"
        id="text89"
-       y="125.21018"
-       x="-10.957911"
+       y="265.65005"
+       x="-26.066328"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;fill-opacity:1;stroke-width:0.26458332"
-         y="125.21018"
-         x="-10.957911"
-         id="tspan87">Getfem++とは・・・</tspan></text>
+         y="265.65005"
+         x="-26.066328"
+         id="tspan87">とりあえず</tspan></text>
     <text
-       id="text89-3"
-       y="208.79239"
-       x="201.50304"
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
+       x="103.66525"
+       y="105.68643"
+       id="text979"><tspan
+         id="tspan977"
+         x="103.66525"
+         y="105.68643"
+         style="stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;fill:#008000">Getfem++5.2のリリースノート</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="46.61779"
+       y="276.35336"
+       id="text841"><tspan
+         x="46.61779"
+         y="276.35336"
          style="stroke-width:0.26458332"
-         y="208.79239"
-         x="201.50304"
-         id="tspan87-6">Wikipediaより</tspan></text>
-    <image
-       xlink:href="Crossed_tubes_in_contact_calculation_with_GetFEM++.png"
-       width="79.375"
-       height="83.740623"
-       preserveAspectRatio="none"
-       id="image876"
-       x="11.1354"
-       y="204.56316" />
+         id="tspan843">DownloadしてCompileしてみましょう♪</tspan><tspan
+         x="46.61779"
+         y="293.99225"
+         style="stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+         id="tspan1004">@Ubuntu18.04</tspan><tspan
+         x="46.61779"
+         y="311.63113"
+         style="stroke-width:0.26458332"
+         id="tspan1002" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="78.305084"
+       y="208.90678"
+       id="text1010"><tspan
+         id="tspan1008"
+         x="78.305084"
+         y="208.90678"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">Ansysのメッシュインポート機能</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="147.83371"
+       y="200.45131"
+       id="text1010-3"><tspan
+         id="tspan1008-6"
+         x="147.83371"
+         y="200.45131"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">Python3への対応</tspan></text>
   </g>
 </svg>
