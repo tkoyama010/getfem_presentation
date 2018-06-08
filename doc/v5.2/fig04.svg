@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6083"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6081" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="rotate(-90,23.999998,24)"
+       gradientUnits="userSpaceOnUse"
+       x2="47"
+       x1="1"
+       id="linearGradient3764">
+      <stop
+         id="stop1456"
+         style="stop-color:#575757;stop-opacity:1" />
+      <stop
+         id="stop1458"
+         style="stop-color:#616161;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-87)"
+     id="layer1">
+    <text
+       id="text3715"
+       y="153.209"
+       x="63.075607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot38"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1M';font-style:normal;font-weight:normal;font-size:53.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1M';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion40"><rect
+           id="rect42"
+           width="2109.3733"
+           height="387.63004"
+           x="4204.478"
+           y="265.76297" /></flowRegion><flowPara
+         id="flowPara44" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2.3123035"
+       y="138.22449"
+       id="text48" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="4.250833"
+       y="105.68643"
+       id="text979"><tspan
+         id="tspan977"
+         x="4.250833"
+         y="105.68643"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332">Getfem++v5.2インストール方法 @Ubuntu18.04</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="8.8654785"
+       y="170.01768"
+       id="text841"><tspan
+         x="8.8654785"
+         y="187.65657"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         id="tspan1004" /></text>
+    <text
+       id="text925"
+       y="149.03293"
+       x="7.6543059"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332;fill:#ff0000"
+         y="149.03293"
+         x="7.6543059"
+         id="tspan923">$ ./configure</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.253979"
+       y="163.20062"
+       id="text842"><tspan
+         id="tspan839"
+         x="3.253979"
+         y="163.20062"
+         style="font-size:11.28888893px;line-height:1.25;stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;fill:#008000">このときオプションとして以下のものが使用できます。</tspan></text>
+    <text
+       id="text925-3"
+       y="222.90977"
+       x="6.4184766"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.3499999px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="222.90977"
+         x="6.4184766"
+         id="tspan923-6" /></text>
+    <g
+       id="g1532"
+       transform="matrix(0.5066705,0,0,0.5066705,2.7763413,111.91955)">
+      <g
+         id="g1469">
+        <path
+           id="path1463"
+           style="opacity:0.05"
+           d="m 36.31,5 c 5.859,4.062 9.688,10.831 9.688,18.5 0,12.426 -10.07,22.5 -22.5,22.5 -7.669,0 -14.438,-3.828 -18.5,-9.688 1.037,1.822 2.306,3.499 3.781,4.969 4.085,3.712 9.514,5.969 15.469,5.969 12.703,0 23,-10.298 23,-23 0,-5.954 -2.256,-11.384 -5.969,-15.469 C 39.81,7.306 38.132,6.037 36.31,5 Z m 4.969,3.781 c 3.854,4.113 6.219,9.637 6.219,15.719 0,12.703 -10.297,23 -23,23 -6.081,0 -11.606,-2.364 -15.719,-6.219 4.16,4.144 9.883,6.719 16.219,6.719 12.703,0 23,-10.298 23,-23 0,-6.335 -2.575,-12.06 -6.719,-16.219 z" />
+        <path
+           id="path1465"
+           style="opacity:0.1"
+           d="m 41.28,8.781 c 3.712,4.085 5.969,9.514 5.969,15.469 0,12.703 -10.297,23 -23,23 -5.954,0 -11.384,-2.256 -15.469,-5.969 4.113,3.854 9.637,6.219 15.719,6.219 12.703,0 23,-10.298 23,-23 0,-6.081 -2.364,-11.606 -6.219,-15.719 z" />
+        <path
+           id="path1467"
+           style="opacity:0.2"
+           d="M 31.25,2.375 C 39.865,5.529 46,13.792 46,23.505 c 0,12.426 -10.07,22.5 -22.5,22.5 -9.708,0 -17.971,-6.135 -21.12,-14.75 a 23,23 0 0 0 44.875,-7 23,23 0 0 0 -16,-21.875 z" />
+      </g>
+      <g
+         id="g1473">
+        <path
+           id="path1471"
+           style="fill:url(#linearGradient3764);fill-opacity:1"
+           d="M 24,1 C 36.703,1 47,11.297 47,24 47,36.703 36.703,47 24,47 11.297,47 1,36.703 1,24 1,11.297 11.297,1 24,1 Z" />
+      </g>
+      <g
+         id="g1487">
+        <g
+           id="g1485">
+          <g
+             id="g1483"
+             transform="translate(1,1)">
+            <g
+               id="g1481"
+               style="opacity:0.1">
+              <!-- color: #616161 -->
+              <g
+                 id="g1479">
+                <path
+                   id="path1475"
+                   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   d="M 36,34 V 30 H 24 v 4 m 12,0" />
+                <path
+                   id="path1477"
+                   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   d="M 14.746,30 12.004,27.094 18.176,22 12.004,16.91 14.746,14 l 9.258,8 m -9.258,8" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1497">
+        <g
+           id="g1495">
+          <!-- color: #616161 -->
+          <g
+             id="g1493">
+            <path
+               id="path1489"
+               style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 36,34 V 30 H 24 v 4 m 12,0" />
+            <path
+               id="path1491"
+               style="fill:#dcdcdc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 14.746,30 12.004,27.094 18.176,22 12.004,16.91 14.746,14 l 9.258,8 m -9.258,8" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1501">
+        <path
+           id="path1499"
+           style="opacity:0.1"
+           d="m 40.03,7.531 c 3.712,4.084 5.969,9.514 5.969,15.469 0,12.703 -10.297,23 -23,23 C 17.045,46 11.615,43.744 7.53,40.031 11.708,44.322 17.54,47 23.999,47 c 12.703,0 23,-10.298 23,-23 0,-6.462 -2.677,-12.291 -6.969,-16.469 z" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.246334"
+       y="126.38246"
+       id="text888-2"><tspan
+         x="28.246334"
+         y="126.38246"
+         style="font-size:8.46666622px;stroke-width:0.26458332"
+         id="tspan890-7">おきまりの・・・</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2627"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Migu 1M';font-style:normal;font-weight:normal;font-size:53.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Migu 1M';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion2629"><rect
+           id="rect2631"
+           width="277.17035"
+           height="56.379353"
+           x="593.88263"
+           y="459.86249" /></flowRegion><flowPara
+         id="flowPara2633" /></flowRoot>    <text
+       id="text925-36"
+       y="178.84013"
+       x="6.3832226"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="178.84013"
+         x="6.3832226"
+         id="tspan923-7">$ ./configure --with-pic</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="4.5401893"
+       y="195.41687"
+       id="text842-5"><tspan
+         id="tspan932"
+         style="font-size:11.28888893px"><tspan
+   id="tspan958"
+   style="-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">64bit版</tspan>コンパイルのために必要なオプション</tspan></text>
+    <text
+       id="text925-36-6"
+       y="211.8575"
+       x="6.7604022"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+         y="211.8575"
+         x="6.7604022"
+         id="tspan923-7-2">$ ./configure --enable-python3=yes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="4.9173694"
+       y="228.43423"
+       id="text842-5-9"><tspan
+         id="tspan932-1"
+         style="font-size:11.28888893px;stroke-width:0.26458332">python2ではなく<tspan
+   id="tspan960"
+   style="-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">python3</tspan>を使うというオプション</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="16.5529"
+       y="253.6274"
+       id="text842-2"><tspan
+         id="tspan839-7"
+         x="16.5529"
+         y="253.6274"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332" /></text>
+    <text
+       id="text980"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="16.5529"
+       y="253.6274"><tspan
+         id="tspan982"
+         x="16.5529"
+         y="253.6274"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332" /></text>
+    <text
+       id="text986"
+       y="280.53815"
+       x="64.957626"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="294.43759"
+         x="64.957626"
+         id="tspan984"></tspan></text>
+    <text
+       id="text990"
+       y="253.84322"
+       x="32.033901"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:9.87777805px;stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;fill:#008000"
+         y="253.84322"
+         x="32.033901"
+         id="tspan988">このconfigureの実行により必要なライブラリがインス</tspan><tspan
+         id="tspan992"
+         style="font-size:9.87777805px;stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;fill:#008000"
+         y="271.48212"
+         x="32.033901">されているかが確認されます。</tspan></text>
+  </g>
+</svg>
