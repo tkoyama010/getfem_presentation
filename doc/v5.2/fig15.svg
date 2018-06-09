@@ -437,4 +437,21 @@
        x="161.39111"
        y="207.79778"
        style="font-size:8.46666622px;stroke-width:0.26458332">以上でメッシュと領域の設定が終了</tspan></text>
+  <rect
+     style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.26458332"
+     id="rect914-3"
+     width="28.628838"
+     height="9.1234751"
+     x="60.653801"
+     y="104.88741" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="60.914371"
+     y="110.77351"
+     id="text55-3-36-1-3-3-3-56-6"><tspan
+       x="60.914371"
+       y="110.77351"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#000080;stroke-width:0.26458332"
+       id="tspan57-7-7-2-6-6-67-2-7">[ 0.0,15.0]</tspan></text>
 </svg>
