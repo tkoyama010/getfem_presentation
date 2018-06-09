@@ -103,14 +103,6 @@
        y="158.89595"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.70000003px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.07087053;"
        id="tspan1017" /></text>
-  <image
-     xlink:href="solution_thermo.png"
-     width="105.83334"
-     height="108.84151"
-     preserveAspectRatio="none"
-     id="image256"
-     x="183.564"
-     y="91.633957" />
   <text
      id="text58"
      y="24.685595"
@@ -122,101 +114,27 @@
        x="11.047672"
        id="tspan56">Tutorial</tspan></text>
   <text
-     id="text62"
-     y="50.045761"
-     x="14.162067"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78"
-       style="font-size:12.69999981px;stroke-width:0.26458332"
-       y="50.045761"
-       x="14.162067"><tspan
-         id="tspan80"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332">getfem-5.2/tests</tspan></tspan></text>
-  <text
-     id="text62-7"
-     y="52.107849"
-     x="216.46017"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78-6"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       y="52.107849"
-       x="216.46017">C++の例題</tspan></text>
-  <text
-     id="text62-76"
-     y="73.875679"
-     x="13.203094"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78-1"
-       style="font-size:12.69999981px;stroke-width:0.26458332"
-       y="73.875679"
-       x="13.203094"><tspan
-         id="tspan134"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332">getfem-5.2/interface/tests/python</tspan></tspan></text>
-  <text
-     id="text62-7-0"
-     y="87.505516"
-     x="215.94611"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78-6-6"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       y="87.505516"
-       x="215.94611">pythonの例題</tspan></text>
-  <text
-     id="text62-7-3"
-     y="106.22793"
-     x="10.940901"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78-6-67"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';stroke-width:0.26458332"
-       y="106.22793"
-       x="10.940901">■Linear Elastostatic plate problem</tspan></text>
-  <text
-     id="text62-7-3-5-5"
-     y="120.33991"
-     x="10.854175"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78-6-67-3-6"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';stroke-width:0.26458332"
-       y="120.33991"
-       x="10.854175">■Solve the stokes problem </tspan></text>
-  <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="10.157849"
-     y="158.16019"
+     x="5.2637815"
+     y="39.367813"
      id="text109" />
   <text
-     id="text62-7-3-5-5-3"
-     y="137.97063"
-     x="9.6189699"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     xml:space="preserve"><tspan
-       id="tspan78-6-67-3-6-6"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';stroke-width:0.26458332"
-       y="137.97063"
-       x="9.6189699">(incompressible viscuous fluid).</tspan></text>
-  <text
-     id="text71"
-     y="152.60593"
-     x="10.762218"
+     id="text55-3"
+     y="43.464737"
+     x="10.950294"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
      xml:space="preserve"><tspan
-       id="tspan73"
-       style="font-size:9.87777805px;stroke-width:0.26458332"
-       y="152.60593"
-       x="10.762218">■Deformation of a plate under the   </tspan><tspan
-       id="tspan77"
-       style="font-size:9.87777805px;stroke-width:0.26458332"
-       y="170.24481"
-       x="10.762218">coupling of thermal, elasticity, </tspan><tspan
-       id="tspan83"
-       style="font-size:9.87777805px;stroke-width:0.26458332"
-       y="187.8837"
-       x="10.762218">and electric effects.</tspan></text>
+       id="tspan57-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.28888893px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
+       y="43.464737"
+       x="10.950294">まずは物性値とメッシュ情報を設定します。</tspan></text>
+  <image
+     xlink:href="set_parameter.png"
+     y="46.678757"
+     x="7.9789176"
+     id="image93"
+     preserveAspectRatio="none"
+     height="100.47924"
+     width="396.875" />
 </svg>
