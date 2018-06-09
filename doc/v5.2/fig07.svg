@@ -175,7 +175,7 @@
          id="tspan210"
          style="font-size:8.46666622px;stroke-width:0.26458332;-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
          y="243.21902"
-         x="8.0037098">$make &amp;&amp; make check &amp;&amp; make install</tspan><tspan
+         x="8.0037098">$make &amp;&amp; make check &amp;&amp; sudo make install</tspan><tspan
          id="tspan214"
          style="font-size:8.46666622px;stroke-width:0.26458332"
          y="260.85791"
