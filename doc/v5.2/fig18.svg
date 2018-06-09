@@ -14,18 +14,6 @@
    id="svg8">
   <defs
      id="defs2">
-    <marker
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow2Lend"
-       style="overflow:visible;">
-      <path
-         id="path979"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#008c00;stroke-opacity:1;fill:#008000;fill-opacity:1"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
     <linearGradient
        osb:paint="solid"
        id="linearGradient6083">
@@ -48,18 +36,6 @@
          style="stop-color:#616161;stop-opacity:1"
          id="stop1458" />
     </linearGradient>
-    <marker
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow2Lend-6"
-       style="overflow:visible">
-      <path
-         id="path979-2"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
-    </marker>
   </defs>
   <metadata
      id="metadata5">
@@ -146,295 +122,103 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     x="8.561759"
+     y="38.341446"
+     id="text55-3-36-1"><tspan
+       x="8.561759"
+       y="38.341446"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';stroke-width:0.26458332"
+       id="tspan57-7-7-2">別に作成しておいた矩形のメッシュオブジェクトと</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
      x="8.7808361"
      y="51.620132"
      id="text55-3-36-1-3"><tspan
        x="8.7808361"
        y="51.620132"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';stroke-width:0.26458332"
-       id="tspan57-7-7-2-6">その際には各メッシュオブジェクトのメソッドを使います。</tspan></text>
+       id="tspan57-7-7-2-6">組み合わせて全体のモデルを作成していきます。</tspan></text>
   <image
      xlink:href="Model.png"
-     width="132.29167"
-     height="155.34515"
-     preserveAspectRatio="none"
+     y="53.869778"
+     x="76.566223"
      id="image193"
-     x="9.8911896"
-     y="53.869778" />
+     preserveAspectRatio="none"
+     height="155.34515"
+     width="132.29167" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+     x="11.740718"
+     y="201.30582"
+     id="text55-3-36-1-3-3"><tspan
+       x="11.740718"
+       y="201.30582"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.39999962px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332;fill:#0000ff"
+       id="tspan57-7-7-2-6-6">Model</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="45.155197"
+     x="111.83022"
      y="197.15224"
      id="text55-3-36-1-3-3-7"><tspan
-       x="45.155197"
+       x="111.83022"
        y="197.15224"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';fill:#ffffff;stroke-width:0.26458332"
        id="tspan57-7-7-2-6-6-5">mesh2</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="45.027771"
+     x="111.7028"
      y="79.249687"
      id="text55-3-36-1-3-3-7-3"><tspan
-       x="45.027771"
+       x="111.7028"
        y="79.249687"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';fill:#ffffff;stroke-width:0.26458332"
        id="tspan57-7-7-2-6-6-5-5">mesh1</tspan></text>
   <circle
      style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.41971564;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path250"
-     cx="74.591583"
+     cx="141.26656"
      cy="111.33081"
      r="28.394308" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="54.62413"
+     x="121.29919"
      y="125.96579"
      id="text55-3-36-1-3-3-7-3-6"><tspan
-       x="54.62413"
+       x="121.29919"
        y="125.96579"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#ff0000;stroke-width:0.26458332"
        id="tspan57-7-7-2-6-6-5-5-2">HOLE_BOUND</tspan></text>
   <path
      style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path46"
-     d="M 81.623667,167.71634 A 58.208332,58.208332 0 0 1 66.254725,167.41543" />
+     d="m 148.29868,167.71634 a 58.208332,58.208332 0 0 1 -15.36893,-0.30091" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="80.679588"
+     x="147.35449"
      y="165.03502"
      id="text55-3-36-1-3-3-7-3-6-6"><tspan
-       x="80.679588"
+       x="147.35449"
        y="165.03502"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#ff0000;stroke-width:0.26458332"
        id="tspan57-7-7-2-6-6-5-5-2-7">CONTACT_BOUND</tspan></text>
   <path
-     style="fill:#ff0000;stroke:#fe0000;stroke-width:1.0583334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 18.267699,205.59556 113.886131,0.3146"
+     style="fill:#ff0000;stroke:#fe0000;stroke-width:1.05833334;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 84.9427,205.59556 113.88614,0.3146"
      id="path101" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="111.5163"
+     x="178.1911"
      y="201.0873"
      id="text55-3-36-1-3-3-7-3-6-6-5"><tspan
-       x="111.5163"
+       x="178.1911"
        y="201.0873"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46666622px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#ff0000;stroke-width:0.26458332"
        id="tspan57-7-7-2-6-6-5-5-2-7-3">BOTTOM_BOUND</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="146.08035"
-     y="80.687515"
-     id="text55-3-36-1-3-3"><tspan
-       x="146.08035"
-       y="80.687515"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#000080;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6">fb1 = mesh1.outer_faces_in_box([-8.1, 6.9], [8.1, 23.1])</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.00562"
-     y="130.08287"
-     id="text55-3-36-1-3-3-75"><tspan
-       x="145.00562"
-       y="130.08287"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-3">fb2 = mesh1.outer_faces_with_direction([0., -1.], np.pi/4.5)</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="146.49438"
-     y="177.88654"
-     id="text55-3-36-1-3-3-5"><tspan
-       x="146.49438"
-       y="177.88654"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6">fb3 = mesh2.outer_faces_with_direction([0., -1.], 0.01)</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="146.11003"
-     y="73.630569"
-     id="text55-3-36-1-3-3-5-2"><tspan
-       x="146.11003"
-       y="73.630569"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#000080;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9">HOLE_BOUND=1</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="147.08601"
-     y="87.978058"
-     id="text55-3-36-1-3-3-5-2-1"><tspan
-       x="147.08601"
-       y="87.978058"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#000080;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9-2">mesh1.set_region(HOLE_BOUND, fb1)</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.51038"
-     y="144.93852"
-     id="text55-3-36-1-3-3-5-2-1-7"><tspan
-       x="145.51038"
-       y="144.93852"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9-2-0">mesh1.region_subtract(CONTACT_BOUND, HOLE_BOUND)</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.3261"
-     y="137.59753"
-     id="text55-3-36-1-3-3-5-2-1-9"><tspan
-       x="145.3261"
-       y="137.59753"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9-2-3">mesh1.set_region(CONTACT_BOUND, fb2)</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="146.85306"
-     y="185.3604"
-     id="text55-3-36-1-3-3-5-2-1-7-6"><tspan
-       x="146.85306"
-       y="185.3604"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9-2-0-0">mesh2.set_region(BOTTOM_BOUND, fb3)</tspan></text>
-  <rect
-     style="fill:none;fill-rule:evenodd;stroke:#0000fe;stroke-width:1.0583334;stroke-miterlimit:4;stroke-dasharray:4.23333334, 2.11666666999999986;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect868"
-     width="62.177082"
-     height="62.177082"
-     x="43.300632"
-     y="80.383736" />
-  <rect
-     style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.26458332"
-     id="rect914"
-     width="28.628838"
-     height="9.1234751"
-     x="22.336784"
-     y="142.67505" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="22.597355"
-     y="148.56114"
-     id="text55-3-36-1-3-3-3-56"><tspan
-       x="22.597355"
-       y="148.56114"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#000080;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-67-2">[-8.1, 6.9]</tspan></text>
-  <rect
-     style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.26458332"
-     id="rect914-9"
-     width="28.628838"
-     height="9.1234751"
-     x="105.47771"
-     y="71.260262" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="106.59625"
-     y="77.146355"
-     id="text55-3-36-1-3-3-3-5"><tspan
-       x="106.59625"
-       y="77.146355"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#000080;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-67-3">[8.1, 23.1]</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.9756"
-     y="66.284561"
-     id="text969"><tspan
-       id="tspan967"
-       x="145.9756"
-       y="66.284561"
-       style="font-size:6.3499999px;line-height:4;fill:#000080;stroke-width:0.26458332">BOX形の領域を指定してHOLE_BOUND面を指定します</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:0.40000001;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.00275"
-     y="102.39899"
-     id="text969-3"><tspan
-       id="tspan967-6"
-       x="145.00275"
-       y="102.39899"
-       style="font-size:6.3499999px;line-height:0.40000001;fill:#008000;stroke-width:0.26458332"><tspan
-   style="-inkscape-font-specification:'Migu 1M Bold';font-family:'Migu 1M';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan2490">mesh1</tspan>中央から[0., -1.]の方向の面を指定して</tspan><tspan
-       x="145.00275"
-       y="109.28521"
-       style="font-size:6.3499999px;line-height:0.40000001;fill:#008000;stroke-width:0.26458332"
-       id="tspan917">CONTACT_BOUNDを指定しますHOLE_BOUNDと一部指定が</tspan><tspan
-       x="145.00275"
-       y="116.17143"
-       style="font-size:6.3499999px;line-height:0.40000001;fill:#008000;stroke-width:0.26458332"
-       id="tspan941">被るため最後にHOLE_BOUND部分を削除します</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.78857"
-     y="122.29388"
-     id="text55-3-36-1-3-3-5-2-7"><tspan
-       x="145.78857"
-       y="122.29388"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';fill:#008000;stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9-5">CONTACT_BOUND=2</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="225.88466"
-     y="97.372269"
-     id="text915"><tspan
-       id="tspan913"
-       x="225.88466"
-       y="111.27171"
-       style="stroke-width:0.26458332" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="146.72771"
-     y="170.26872"
-     id="text55-3-36-1-3-3-5-2-7-3"><tspan
-       x="146.72771"
-       y="170.26872"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888855px;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M Bold';stroke-width:0.26458332"
-       id="tspan57-7-7-2-6-6-6-9-5-5">BOTTOM_BOUND=3</tspan></text>
-  <path
-     style="fill:#008000;stroke:#008c00;stroke-width:1.24354172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-     d="m 74.560816,119.07985 0.3146,37.75231"
-     id="path956" />
-  <g
-     id="g2004">
-    <path
-       id="path956-9"
-       d="m 75.278896,172.15479 -3e-6,30.51645"
-       style="fill:#000000;stroke:#000000;stroke-width:1.24354172;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)" />
-  </g>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="145.661"
-     y="163.12421"
-     id="text2488"><tspan
-       id="tspan2486"
-       x="145.661"
-       y="163.12421"
-       style="font-size:6.3499999px;stroke-width:0.26458332">同様にmesh2の底面境界領域を指定します</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:'Migu 1M';-inkscape-font-specification:'Migu 1M';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="161.39111"
-     y="207.79778"
-     id="text2580"><tspan
-       id="tspan2578"
-       x="161.39111"
-       y="207.79778"
-       style="font-size:8.46666622px;stroke-width:0.26458332">以上でメッシュと領域の設定が終了</tspan></text>
 </svg>
